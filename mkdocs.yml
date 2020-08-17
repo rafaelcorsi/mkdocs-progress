@@ -2,6 +2,8 @@ site_name: Testando
 theme:
   name: 'material'
 
+repo_name: 'rafaelcorsi/mkdocs-progress'
+repo_url: 'https://github.com/rafaelcorsi/mkdocs-progress/'
 docs_dir: docs-src
 site_dir: docs
 

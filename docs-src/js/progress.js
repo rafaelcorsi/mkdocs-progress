@@ -12,6 +12,7 @@ function progressBut(button_id)  {
        f.append('name', usrname);
        f.append('time', new Date());
        f.append('id', button_id);
+       f.append('url', window.location.href);
        fetch(scriptURL, { method: 'POST', body: f})
        .then(response => console.log('Success!', response))
        .catch(error => console.error('Error!', error.message));

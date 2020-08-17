@@ -35,7 +35,6 @@ Será necessário criar uma planinha com colunas predefinidas (parâmetros do po
         - desabilitar todos os botões
         - usar um id aleatório
 
-
 ## Parte 2 - Configurando o mkdocs
 
 Será necessário inserir alguns scripts `js` e um `css`, que estão localizados em:
@@ -79,4 +78,4 @@ Para inserir um progresso, use o código html a seguir:
 
 Para cada botão de progresso você deve editar e criar um único `id=`.
 
-<button class="button0" id="parte-3-" onClick="progressBut(this.id);">Cheguei Aqui!</button>
+<button class="button0" id="parte-3-botao" onClick="progressBut(this.id);">Cheguei Aqui!</button>
