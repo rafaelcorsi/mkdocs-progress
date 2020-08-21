@@ -18,8 +18,6 @@ extra_css:
   - css/progress.css
 
 extra_javascript:
-  - 'js/jquery.min.js'
-  - 'js/savy.min.js'
   - 'js/progress.js'
 
 markdown_extensions:

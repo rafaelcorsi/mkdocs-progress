@@ -1,11 +1,5 @@
 # Bem vindo a disciplina .....
 
-!!! tip "Progresso"
-    Para o progresso funcionar, indique seu nome:
-    <div>
-        <input class="input1" id="progressUsrName" name="name" type="name" placeholder="Seu nome" required class="auto-save">
-    </div>
-    
 O progresso é reportado a uma planinha do google sheets via post. O exemplo aqui vai para:
 
 - https://docs.google.com/spreadsheets/d/1OZUiduaqpe-YLMXVYqpUXNC7nnAlS8B7Pvp728YvMXs/edit?usp=sharing
@@ -17,7 +11,7 @@ Será necessário criar uma planinha com colunas predefinidas (parâmetros do po
 
 1. Crie uma planinha
 1. Crie as seguintes colunas:
-    - `timestamp` / `name` / `id` / `time`
+    - `timestamp` / `name` / `id` / `time` / `url`
 1. Vá em `Tools` -> `Script Editor` -> `File` -> `New` -> `Script File`
     - `Enter new file name`: `post`
     - Cole o código: `post.gs`
@@ -49,8 +43,6 @@ extra_css:
   - css/progress.css
 
 extra_javascript:
-  - 'js/jquery.min.js'
-  - 'js/savy.min.js'
   - 'js/progress.js'
 ```
 

@@ -9,6 +9,17 @@
     outline: none;
 }
 
+.button1 {
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    background: #dc143c;
+    padding: 0.5em 0.75em 0.6em;
+    border-radius: 3px;
+    box-shadow: 0 3px 0 #dc243c;
+    outline: none;
+}
+
 .buttonDis {
     background-color: gray; 
     box-shadow: 0 3px 0 gray;
